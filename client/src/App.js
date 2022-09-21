@@ -3,8 +3,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from '@ap
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { setContext } from '@apollo/client/link/context';
 import Navbar from './components/Navbar';
-
-imprt SearchBooks from './pages/SearchBooks';
+import SearchBooks from './pages/SearchBooks';
 import SavedBooks from './pages/SavedBooks';
 
 const httpLink = createHttpLink({
